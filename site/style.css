@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+.navbar{
+    
+    height: 110px;
+    font-size: 18px;
+}
+
+
+.dropdown-menu {
+    
+    box-shadow: 0 0px 5px  rgb(0, 188, 57);
+    display: none;
+    background-color: #efefef;
+    
+    margin:auto;
+}
+.dropdown-menu a {
+    display: block;
+    text-decoration: none;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.745);
+    
+}
+
+.dropdown-menu a:hover{
+    background-color: rgba(19, 202, 86, 0.562);
+    border-radius: 15px;
+    font-family: arial;
+    color: white;
+    padding: 8px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.666);
+    padding: 10px 10px;
+    margin-top: .125em;
+    
+}
+
+
+.login-button{
+    color: rgba(0, 13, 255, 0.973);
+    font-size: 17px;
+    text-decoration: none;
+    transition: 0.2s background-color;
+    border-radius: 50px;
+
+ 
+}
+
+.login-button:hover{
+    text-decoration: underline;
+    
+}
+
+.nav-link:hover{
+    background-color: rgba(91, 224, 91, 0.682);
+    border-radius: 35px;
+    transition: 0.3s;
+    
+}
+
+.navbar-toggler{
+    border: none;
+    font-size: 1.25rem;
+}
+
+li, b{
+    color: rgba(255, 255, 255, 0.808);
+}
+
+
+/*SObre nos*/
+
+
+/*SObre nos fim*/
+
+/*SERVIÇOS*/
+.containerServ {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+/* Card */
+.cardS {
+  width: 300px;
+  height: 460px;
+  margin: 25px;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+  transition: 0.3s;
+}
+
+/* Card Header*/
+.card-headerS {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.card-imgS {
+  min-width: 100%;
+  width: auto;
+  height: 100%;
+}
+
+/* Card Body */
+.card-bodyS {
+  height: 170px;
+  padding: 15px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.card-local {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.card-tituloS {
+  font-size: 32px;
+  margin: 15px 0;
+}
+
+.card-textoS {
+  font-size: 12px;
+  width: 250px;
+  margin: 0 auto;
+}
+
+/* Card Footer */
+.card-footerS {
+  margin-top: 10px;
+  text-align: center;
+  background-color: #000;
+}
+
+.card-footerS a {
+  color: #fff;
+  display: block;
+  padding: 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+/* Cores Cards */
+.card-1 .card-footerS {
+  background-color: #2740d1;
+}
+
+.card-1 .card-local {
+  color: #2740d1;
+}
+
+.card-2 .card-footerS {
+  background-color: #d12761;
+}
+
+.card-2 .card-local {
+  color: #d12761;
+}
+
+.card-3 .card-footerS {
+  background-color: #00c702;
+}
+
+.card-3 .card-local {
+  color: #00c702;
+}
+
+/* Animação Hover */
+.cardS:hover {
+  transform: scale3d(1.1, 1.1, 1);
+}
+
+
+
+/*FIM serviços*/
+
+.hero-section{
+    background: url(pousada-da-gibinha-pousada-em-campina-do-monte-alegre-19-1.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    max-width: 8000px;
+}
+
+
+/*.hero-section img{
+   padding: 90px; 
+   margin: 50%;
+    justify-content: center;
+    align-items: center;
+
+}*/
+
+button.navbar-toggler{
+    background-color: rgba(245, 245, 245, 0.773);
+    color-scheme: green;
+}
+
+button.navbar-toggler:hover{
+    background-color: rgba(80, 255, 53, 0.589);
+}    
+
+
+main h1{
+    display:block;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    font-family:serif;
+    color: rgb(7, 83, 19);
+}
+
+main h2{
+    display:block;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(3, 69, 39);
+    font-size: 20px;
+}
+main p{
+    display:block;
+    justify-content: center;
+    text-align: center;
+    padding: 1.25rem;
+    margin: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(60, 59, 59);
+
+}
+
+main #p2{
+    font-size: 18px;
+    font-family:Helvetica ;
+}
+/*Avaliações*/
+
+
+
+.slide-content{
+  margin: 0 40px;
+  overflow: hidden;
+}
+
+.swiper{
+  font-family: var(Arial);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background-color: var(rgb(145, 138, 138));
+  width: 100%;
+}
+
+@media(min-width: 400px) and (max-width: 980px){
+  .swiper{
+    flex-direction: row;
+    justify-content: center;
+    display: block;
+    width: 500px;
+    height: 500px;
+
+  }
+}
+
+.swiper-wrapper{
+  width: 100%;
+  height: 35em;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.cardA{
+  width: 20em;
+  height: 90%;
+  background-color: #fff;
+  border-radius: 2em;
+  box-shadow: 0 0 2em rgba(0, 0, 0, .2);
+  padding: 2em 1em;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  margin: 0 2em;
+}
+
+.swiper-slide:not(.swiper-slide-active){
+  filter: blur(1px);
+}
+
+.card__image{
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  border: 5px solid rgb(0, 62, 0);
+  padding: 3px;
+  margin-bottom: 2em;
+}
+
+.card__image img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card__content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card__title{
+  font-size: 1.5rem;
+  font-weight: 500;
+  position: relative;
+  top: .2em;
+}
+
+.card__name{
+  color: rgb(0, 66, 232);
+  font-size: 17px;
+}
+
+.card__text{
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 1em 0;
+}
+
+.card__btn{
+  background-color: green;
+  color: #fff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  padding: .5em;
+  border-radius: .5em;
+  margin-top: .5em;
+  cursor: pointer;
+}
+
+
+
+
+
+/*Fim Depoimentos*/
+
+
+
+
+/*Botão Flutuante*/
+
+#div-fixa{
+  position: fixed;
+  bottom: 20px;
+  margin: 0 20px;
+  background: rgba(89, 245, 123, 0.577);
+  width: 230px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#div-fixa img{
+  width: 50px;
+  height: 50px;
+}
+#div-fixa a .flex-items{
+  display: flex;
+  align-items: center;
+
+}
+#div-fixa a .flex-items span{
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(8, 80, 5);
+  margin-left: 5px;
+}
+
+.flutuar{
+  animation-name: flutuar ;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes flutuar{
+  from{
+    transform: translate3d(0, 0, 0);
+    filter: brightness(100%);
+  }
+  to{
+    transform: translate3d(0, -15px, 0);
+    filter: brightness(150%);
+  }
+}
+
+
+
+
+/*fim botão*/
+
+
+
+
+
+#maps{
+    width: 100vw;
+    height: 60vh;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
